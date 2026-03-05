@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+.logo {
+    width: 400px;
+    height: 200px;
+    background-color: #e6e6e6;
+    border: 2px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+}
+</style>
+<img src=">c:\Users\USER\Downloads\logo r.png" 
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        form {
+            max-width: 400px;
+            margin: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        
+        .inline-label {
+            display: inline;
+            font-weight: normal;
+        }
+        
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #7e0c88be;
+            color: rgb(12, 187, 64);
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    
+    <form action="/submit" method="POST">
+        <!-- Text Inputs -->
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="date of birth">date of birth:</label>
+        <input type="date" id="date of birth" name="date" required>
+        <!-- Radio Buttons -->
+        <p><strong>Gender:</strong></p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male" class="inline-label">Male</label><br>
+        
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female" class="inline-label">Female</label><br>
+
+   <!DOCTYPE html>
+<html>
+<head>
+    <title>Course Selection</title>
+</head>
+<body>
+
+<h2>Select Your Course</h2>
+
+<label for="course">Choose a course:</label>
+<select id="course" name="course">
+    <option value="">--Select Course--</option>
+    <option value="business">Business</option>
+    <option value="it">IT</option>
+    <option value="datascience">Data Science</option>
+</select>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hobbies</title>
+</head>
+<body>
+
+<h2>Select Your Hobbies</h2>
+
+<form>
+    <input type="checkbox" name="hobby" value="reading"> Reading <br>
+    <input type="checkbox" name="hobby" value="gaming"> Gaming <br>
+    <input type="checkbox" name="hobby" value="sports"> Sports <br>
+    <input type="checkbox" name="hobby" value="music"> Listening to Music <br>
+    <input type="checkbox" name="hobby" value="traveling"> Traveling <br>
+
+
+    <input type="submit" value="Submit" style="margin-right:20px;">
+<input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
